@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; 
 
-class Header extends Component {
+class Header extends React.Component {
     render() {
         return (
             <div>
                 <nav className="navbar navbar-inverse">
                     <div className="container-fluid">
                         <div className="navbar-header">
-                            <a className="navbar-brand" href="#">ShareBook</a>
+                            <a className="navbar-brand" href="#"></a>
                         </div>
                         <ul className="nav navbar-nav">
                             <li className="active">
@@ -25,12 +25,12 @@ class Header extends Component {
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                                <a href="../Signup">
+                                <a href="">
                                     <span className="glyphicon glyphicon-user"></span> Sign Up
 					</a>
                             </li>
                             <li>
-                                <a href="../Signin">
+                                <a href="">
                                     <span className="glyphicon glyphicon-log-in"></span> Login
 					</a>
                             </li>
