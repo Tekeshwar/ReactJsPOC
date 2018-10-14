@@ -8,10 +8,11 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
+    var age=20;
     return (
       <div className="App">
         <Header />
-        <Home />
+        <Home name={"tekesh"} age={20} />
       </div>
     );
   }
