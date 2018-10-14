@@ -8,17 +8,10 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
-    var employeesList = {
-      "employees": [
-        { "firstName": "John", "lastName": "Doe" },
-        { "firstName": "Anna", "lastName": "Smith" },
-        { "firstName": "Peter", "lastName": "Jones" }
-      ]
-    }
     return (
       <div className="App">
         <Header />
-        <Home name="Tekesh" employeesList={employeesList} />
+        <Home />
       </div>
     );
   }
