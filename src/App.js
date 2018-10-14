@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Home name={"tekesh"} age={20} />
+        <Home name={"tekesh"} initialAge={20} />
       </div>
     );
   }
